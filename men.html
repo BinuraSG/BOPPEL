@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!--font-family: 'DM Serif Display', serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
+
+    <!--font-family: 'KoHo', sans-serif;-->
+    <link rel="stylesheet" href="all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="swiper.min.css">
+
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="swiper.min.js"></script>
+    <title>B O P P E L men</title>
+  </head>
+
+  <style>
+
+  .whole_topnav{
+    opacity:1;
+  }
+
+
+  .logomain{
+    font-family: 'KoHo', sans-serif;
+  }
+  .logowomen{
+    font-family: 'KoHo', sans-serif;
+  }
+  .logomen{
+    font-family: 'KoHo', sans-serif;
+  }
+  .logoexplore{
+    font-family: 'KoHo', sans-serif;
+  }
+  .logostreet{
+    font-family: 'KoHo', sans-serif;
+  }
+
+  .mynavtop{
+    margin-bottom:0px;
+    opacity:1.0 ;
+  }
+
+  .topnavsearch{
+
+    border-color:black;
+    color:black;
+
+  }
+
+  .parent_div{
+    position:relative;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("neonkorea.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding:0px;
+    padding-top:5px;
+    padding-bottom:5px;
+    max-width:100%;
+  }
+  .form_div{
+    position:sticky;
+    top:0%;
+    align-content:top;
+    z-index:1000;
+    min-width:250px;
+
+    margin-left:5%;
+    display:inline-block;
+    background-color:#ebeced;
+    width:90%;
+    height:100%;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+
+  .itm_div{
+    background-color:white;
+    margin-left:5%;
+    padding-left:0px;
+    padding-right:0px;
+    position:relative;
+    display: inline-block;
+    width:90%;
+    max-width: 100%;
+    padding-bottom: 5px;
+  }
+
+  .item_display{
+
+    text-align: center;
+    color:black;
+    position:relative;
+    min-width:220px;
+    min-height:200px;
+    width:50vh;
+    height:50vh;
+    max-width: 500px;
+    max-height: 500px;
+    background-color:#eeeeee;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:5px;
+
+  }
+
+  .item_display:hover{
+    filter:brightness(102%);
+  }
+
+  .clothing_display_container{
+    max-width:100%;
+    padding:0px;
+
+
+  }
+  .clothing_display{
+    padding:0px;
+    justify-content: center;
+
+  }
+
+  .category_SPECIFIC_text{
+    display:flex;
+    z-index: 1000;
+    justify-content: center;
+    align-content: center;
+    min-height: 50px;
+    margin:0px;
+    color:white;
+    background-color:#343434;
+    max-width:100%;
+
+  }
+
+  .fa-chevron-up{
+    position:absolute;
+    margin:0;
+    padding:0;
+    align-self:center;
+    margin-left:42vw;
+  }
+
+  .testing_text{
+    position:relative;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+  }
+
+  @media screen and (max-width: 975px) {
+      .fa-chevron-up{
+        margin-left:41vw;
+      }
+  }
+  @media screen and (max-width: 650px) {
+      .fa-chevron-up{
+        margin-left:40vw;
+      }
+  }
+
+  .category_HOLDER{
+
+    z-index:1000;
+    align-content: top;
+    width:100%;
+    min-height: 60px;
+    /* background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("neonkorea.jpg"); */
+    padding:0px;
+    padding-top:10px;
+    padding-bottom:7.5px;
+    margin:0px;
+  }
+
+  .type_items{
+
+    min-width:124px;
+    width:124px;
+    max-width: 100%;
+    margin-left:0px
+  }
+  .type_style{
+    min-width:124px;
+    width:124px;
+    max-width: 100%;
+    margin-left:0px;
+  }
+  .type_price{
+    min-width:124px;
+    width:124px;
+    max-width: 100%;
+    margin-left: 0px;
+
+  }
+
+  .MQ_button{
+
+    width:100%;
+    max-width:124px;
+    min-width:124px;
+    color:white;
+    border-radius: 0px;
+    border:2px solid;
+    border-color:#343434;
+    background-color:#343434;
+    transition:0.5s;
+
+  }
+  .MQ_button:hover{
+
+    background-color:white;
+    color:black;
+    border-color:black;
+    transition:0.5s;
+
+  }
+
+  .category_TYPE, .category_STYLE, .category_PRICE{
+
+    margin-bottom: 3px;
+    padding-left:5px;
+    padding-right:5px;
+
+
+  }
+
+  @media screen and (max-width: 575px) {
+
+      .category_TYPE, .category_STYLE, .category_PRICE, .type_items, .type_style, .type_price {
+        width:100%;
+      }
+      .MQ_button{
+        max-width:100%;
+        width:100%;
+        margin:0px;
+      }
+  }
+
+  .category_specifier_text{
+
+    text-align: center;
+    margin-top:1px;
+    color:black;
+    background-color:rgba(0,0,0,0.1);
+    min-width:100%;
+    padding:0px;
+    /* margin-left:5px; */
+    transition:0.1s;
+
+  }
+  .category_specifier_text:hover{
+
+    transition:0.1s;
+    color:white;
+    background-color:black;
+
+  }
+
+  .item_display_caption_block{
+    align-content: center;
+    text-align: center;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin:0px;
+    background-color:rgba(34,34,34,0.7);
+    color:white;
+    width:80%;
+    min-height: 40px;
+    /* height:20%; */
+    max-height: 60px;
+    margin-left:-5%;
+
+  }
+  .item_display_pcaption{
+    margin-bottom: 0px;
+    padding:0px;
+    font-size: calc(8px + (10 - 8) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.4 - 1.3) * ((100vw - 300px)/(1600 - 300)));
+  }
+
+  .item_display_hcaption{
+    margin-bottom:0px;
+    align-content: center;
+
+    font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.1em + (1.2 - 1.1) * ((100vw - 300px)/(1600 - 300)));
+  }
+
+  .h4{
+    line-height: calc(1.1em + (1.2 - 1.1) * ((100vw - 300px)/(1600 - 300)));
+    margin-bottom:0px;
+  }
+
+  .carousel-caption{
+    align-content: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    bottom:5px;
+  }
+
+  @media screen and (max-height: 560px) {
+
+      .item_display_caption_block{
+        display:none;
+      }
+  }
+
+
+  </style>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light whole_topnav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse mynavtop" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link logomain" href="index.html">B O P P E L<span class="sr-only">(current)</span></a>
+            </li>
+
+              <li class="nav-item active">
+                <a class="nav-link logowomen" href="#">women <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link logomen" href="men.html">men</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link logoexplore" href="#">styles</a>
+              </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="e x p l o r e . . ." aria-label="Search">
+          <button class="btn my-2 my-sm-0 topnavsearch" type="submit">go.</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class = "container parent_div">
+
+      <div class = "container form_div">
+        <form>
+          <div class = "form-row category_SPECIFIC_text"><p class ="testing_text">A N Y T H I N G  &nbsp; S P E C I F I C ?</p>
+            <i class="fas fa-chevron-up btn" data-toggle="collapse" href="#category_HOLDER_COLLAPSE" role="button" aria-expanded="true" aria-controls="category_HOLDER_COLLAPSE" style="color:white;"></i>
+          </div>
+          <div class= "form-row category_HOLDER collapse show" id ="category_HOLDER_COLLAPSE" style="justify-content:center">
+
+              <div class = "form-col category_TYPE" style="display:inline">
+                <a class="btn btn-primary MQ_button" data-toggle="collapse" href="#type_COLLAPSE" role="button" aria-expanded="false" aria-controls="type_COLLAPSE">T Y P E</a>
+                <form>
+                <div class="collapse multi-collapse form-row type_items" id="type_COLLAPSE">
+                  <div class = "container category_specifier_text">W O M E N S'</div>
+                  <div class = "container category_specifier_text">M E N S'</div>
+                  <div class = "container category_specifier_text">U N I S E X</div>
+                  <div class = "container category_specifier_text">K I D S'</div>
+
+                </div>
+              </form>
+              </div>
+
+
+              <div class = "form-col category_STYLE" style="display:inline">
+                <a class="btn btn-primary MQ_button" data-toggle="collapse" href="#style_COLLAPSE" role="button" aria-expanded="false" aria-controls="style_COLLAPSE">S T Y L E</a>
+                <form>
+                <div class="collapse multi-collapse form-row type_style" id="style_COLLAPSE">
+                  <div class = "container category_specifier_text">T - S H I R T</div>
+                  <div class = "container category_specifier_text">S W E A T E R</div>
+                  <div class = "container category_specifier_text">H O O D I E</div>
+                  <div class = "container category_specifier_text">P A N T S</div>
+                  <div class = "container category_specifier_text">S H O R T S</div>
+                  <div class = "container category_specifier_text">H E A D W E A R</div>
+                </div>
+              </form>
+              </div>
+
+
+              <div class = "form-col category_PRICE"style="display:inline">
+                <a class="btn btn-primary MQ_button" data-toggle="collapse" href="#price_COLLAPSE" role="button" aria-expanded="false" aria-controls="price_COLLAPSE">P R I C E</a>
+                <form>
+                <div class="collapse multi-collapse form-row type_price" id="price_COLLAPSE">
+                  <div class = "container category_specifier_text">$ 0 - 20</div>
+                  <div class = "container category_specifier_text">$ 20 - 40</div>
+                  <div class = "container category_specifier_text">$ 40 - 60</div>
+                  <div class = "container category_specifier_text">$ 60 - 80</div>
+                  <div class = "container category_specifier_text">$ 80 - 100</div>
+                  <div class = "container category_specifier_text">$ 100 +</div>
+                </div>
+              </form>
+              </div>
+
+
+          </div>
+        </form>
+      </div>
+
+      <div class = "container itm_div">
+         <div class = "container clothing_display_container">
+          <form>
+          <div class = "form-row clothing_display">
+            <div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div>
+            <div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div>
+            <div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div><div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div><div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div><div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div><div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div><div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div><div class = "container item_display" style="display:inline-block">test
+              <div class="carousel-caption d-md-block item_display_caption_block">
+                <h5 class = "item_display_hcaption">I T E M &nbsp; N A M E <br>C A T E G O R Y<br>$129.93</h5>
+              </div>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  </body>
+</html>
