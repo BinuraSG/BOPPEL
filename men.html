@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/e262358ff7.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <!--font-family: 'DM Serif Display', serif;-->
     <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
@@ -89,6 +90,7 @@
     max-width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+
 
   }
 
@@ -181,7 +183,7 @@
 
   .category_HOLDER{
 
-    z-index:1000;
+
     align-content: top;
     width:100%;
     min-height: 60px;
@@ -326,6 +328,10 @@
   }
 
 
+
+
+
+
   </style>
 
   <body>
@@ -364,9 +370,10 @@
       <div class = "container form_div">
         <form>
           <div class = "form-row category_SPECIFIC_text"><p class ="testing_text">A N Y T H I N G  &nbsp; S P E C I F I C ?</p>
-            <i class="fas fa-chevron-up btn" data-toggle="collapse" href="#category_HOLDER_COLLAPSE" role="button" aria-expanded="true" aria-controls="category_HOLDER_COLLAPSE" style="color:white;"></i>
+            <i class="fas fa fa-chevron-up btn my_collapse" data-toggle="collapse" href="#category_HOLDER_COLLAPSE" role="button" aria-expanded="true" aria-controls="category_HOLDER_COLLAPSE" style="color:white"></i>
           </div>
-          <div class= "form-row category_HOLDER collapse show" id ="category_HOLDER_COLLAPSE" style="justify-content:center">
+          <div class = "multi-collapse container collapse show" id="category_HOLDER_COLLAPSE">
+          <div class= "form-row category_HOLDER" style="justify-content:center">
 
               <div class = "form-col category_TYPE" style="display:inline">
                 <a class="btn btn-primary MQ_button" data-toggle="collapse" href="#type_COLLAPSE" role="button" aria-expanded="false" aria-controls="type_COLLAPSE">T Y P E</a>
@@ -413,7 +420,9 @@
 
 
           </div>
+          </div>
         </form>
+
       </div>
 
       <div class = "container itm_div">
